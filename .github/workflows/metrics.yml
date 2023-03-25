@@ -18,6 +18,8 @@ jobs:
         with:
           token: ${{secrets.METRICS_TOKEN}}
           
+          plugin_languages: yes
+          
           plugin_habits: yes
           
           plugin_wakatime: yes
